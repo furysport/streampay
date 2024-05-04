@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	apphelpers "github.com/OmniFlix/streampay/v2/app/helpers"
-	appparams "github.com/OmniFlix/streampay/v2/app/params"
+	apphelpers "github.com/furysport/streampay/v2/app/helpers"
+	appparams "github.com/furysport/streampay/v2/app/params"
 	dbm "github.com/cometbft/cometbft-db"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/cometbft/cometbft/crypto"

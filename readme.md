@@ -20,7 +20,7 @@ Try the app on - https://sp.OmniFlix.network
 ### Get source code & Install
 
 ```bash=
-git clone https://github.com/OmniFlix/streampay.git
+git clone https://github.com/furysport/streampay.git
 cd streampay
 go mod tidy
 make install

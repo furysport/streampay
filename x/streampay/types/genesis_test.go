@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/OmniFlix/streampay/v2/x/streampay/types"
+	"github.com/furysport/streampay/v2/x/streampay/types"
 	"github.com/cometbft/cometbft/crypto/ed25519"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"

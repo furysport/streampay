@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/OmniFlix/streampay/v2/x/streampay/exported"
+	"github.com/furysport/streampay/v2/x/streampay/exported"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/codec/legacy"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
@@ -13,12 +13,12 @@ import (
 )
 
 const (
-	AminoTypeStreamSendMsg          = "OmniFlix/streampay/MsgStreamSend"
-	AminoTypeStopStreamMsg          = "OmniFlix/streampay/MsgStopStream"
-	AminoTypeClaimStreamedAmountMsg = "OmniFlix/streampay/MsgClaimStream"
-	AminoTypeStreamPayment          = "OmniFlix/streampay/StreamPayment"
-	AminoTypeUpdateParamsMsg        = "OmniFlix/streampay/MsgUpdateParams"
-	AminoTypeParams                 = "OmniFlix/streampay/Params"
+	AminoTypeStreamSendMsg          = "furya/streampay/MsgStreamSend"
+	AminoTypeStopStreamMsg          = "furya/streampay/MsgStopStream"
+	AminoTypeClaimStreamedAmountMsg = "furya/streampay/MsgClaimStream"
+	AminoTypeStreamPayment          = "furya/streampay/StreamPayment"
+	AminoTypeUpdateParamsMsg        = "furya/streampay/MsgUpdateParams"
+	AminoTypeParams                 = "furya/streampay/Params"
 )
 
 func RegisterLegacyAminoCodec(cdc *codec.LegacyAmino) {

@@ -7,6 +7,6 @@ echo "Generating gogo proto code"
 
 # move proto files to the right places
 
-cp -r github.com/OmniFlix/streampay/x/* ./x/
+cp -r github.com/furysport/streampay/x/* ./x/
 rm -rf github.com
 

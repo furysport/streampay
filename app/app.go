@@ -11,10 +11,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/consensus"
 	"github.com/spf13/cast"
 
-	"github.com/OmniFlix/streampay/v2/docs"
+	"github.com/furysport/streampay/v2/docs"
 
-	"github.com/OmniFlix/streampay/v2/app/openapiconsole"
-	appparams "github.com/OmniFlix/streampay/v2/app/params"
+	"github.com/furysport/streampay/v2/app/openapiconsole"
+	appparams "github.com/furysport/streampay/v2/app/params"
 	dbm "github.com/cometbft/cometbft-db"
 	abci "github.com/cometbft/cometbft/abci/types"
 	tmjson "github.com/cometbft/cometbft/libs/json"
@@ -96,9 +96,9 @@ import (
 	ibckeeper "github.com/cosmos/ibc-go/v7/modules/core/keeper"
 	ibctm "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint"
 
-	"github.com/OmniFlix/streampay/v2/x/streampay"
-	streampaykeeper "github.com/OmniFlix/streampay/v2/x/streampay/keeper"
-	streampaytypes "github.com/OmniFlix/streampay/v2/x/streampay/types"
+	"github.com/furysport/streampay/v2/x/streampay"
+	streampaykeeper "github.com/furysport/streampay/v2/x/streampay/keeper"
+	streampaytypes "github.com/furysport/streampay/v2/x/streampay/types"
 )
 
 const (

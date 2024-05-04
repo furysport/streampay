@@ -7,7 +7,7 @@ consumes:
 produces:
   - application/json
 paths:
-  /omniflix/streampay/v1/params:
+  /furya/streampay/v1/params:
     get:
       operationId: Params_YKPW8_G9U6G
       responses:
@@ -45,7 +45,7 @@ paths:
                       format: byte
       tags:
         - gRPC Gateway API
-  /omniflix/streampay/v1/streaming-payments:
+  /furya/streampay/v1/streaming-payments:
     get:
       operationId: StreamingPayments_4LTAJ_7XCR5
       responses:
@@ -248,7 +248,7 @@ paths:
           type: boolean
       tags:
         - gRPC Gateway API
-  /omniflix/streampay/v1/streaming-payments/{id}:
+  /furya/streampay/v1/streaming-payments/{id}:
     get:
       operationId: StreamingPayment_C2RY7_4JV9P
       responses:
@@ -362,12 +362,12 @@ paths:
       tags:
         - gRPC Gateway API
 definitions:
-  OmniFlix.streampay.v1.Params:
+  furya.streampay.v1.Params:
     type: object
     properties:
       stream_payment_fee_percentage:
         type: string
-  OmniFlix.streampay.v1.Period:
+  furya.streampay.v1.Period:
     type: object
     properties:
       amount:
@@ -376,7 +376,7 @@ definitions:
       duration:
         type: string
         format: int64
-  OmniFlix.streampay.v1.QueryParamsResponse:
+  furya.streampay.v1.QueryParamsResponse:
     type: object
     properties:
       params:
@@ -384,7 +384,7 @@ definitions:
         properties:
           stream_payment_fee_percentage:
             type: string
-  OmniFlix.streampay.v1.QueryStreamPaymentResponse:
+  furya.streampay.v1.QueryStreamPaymentResponse:
     type: object
     properties:
       stream_payment:
@@ -462,7 +462,7 @@ definitions:
               - STREAM_PAYMENT_STATUS_COMPLETED
               - STREAM_PAYMENT_STATUS_CANCELLED
             default: STREAM_PAYMENT_STATUS_ACTIVE
-  OmniFlix.streampay.v1.QueryStreamPaymentsResponse:
+  furya.streampay.v1.QueryStreamPaymentsResponse:
     type: object
     properties:
       stream_payments:
@@ -568,7 +568,7 @@ definitions:
                    repeated Bar results = 1;
                    PageResponse page = 2;
            }
-  OmniFlix.streampay.v1.StreamPayment:
+  furya.streampay.v1.StreamPayment:
     type: object
     properties:
       id:
@@ -637,14 +637,14 @@ definitions:
           - STREAM_PAYMENT_STATUS_COMPLETED
           - STREAM_PAYMENT_STATUS_CANCELLED
         default: STREAM_PAYMENT_STATUS_ACTIVE
-  OmniFlix.streampay.v1.StreamStatus:
+  furya.streampay.v1.StreamStatus:
     type: string
     enum:
       - STREAM_PAYMENT_STATUS_ACTIVE
       - STREAM_PAYMENT_STATUS_COMPLETED
       - STREAM_PAYMENT_STATUS_CANCELLED
     default: STREAM_PAYMENT_STATUS_ACTIVE
-  OmniFlix.streampay.v1.StreamType:
+  furya.streampay.v1.StreamType:
     type: string
     enum:
       - STREAM_PAYMENT_TYPE_DELAYED

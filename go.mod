@@ -1,4 +1,4 @@
-module github.com/OmniFlix/streampay/v2
+module github.com/furysport/streampay/v2
 
 go 1.21
 

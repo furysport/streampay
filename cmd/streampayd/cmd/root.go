@@ -9,7 +9,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/pruning"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/OmniFlix/streampay/v2/app/params"
+	"github.com/furysport/streampay/v2/app/params"
 	dbm "github.com/cometbft/cometbft-db"
 	tmcfg "github.com/cometbft/cometbft/config"
 	tmcli "github.com/cometbft/cometbft/libs/cli"
@@ -17,7 +17,7 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 
-	"github.com/OmniFlix/streampay/v2/app"
+	"github.com/furysport/streampay/v2/app"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/debug"
 	"github.com/cosmos/cosmos-sdk/client/flags"

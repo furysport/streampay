@@ -5,7 +5,7 @@ import (
 	"time"
 
 	errorsmod "cosmossdk.io/errors"
-	"github.com/OmniFlix/streampay/v2/x/streampay/types"
+	"github.com/furysport/streampay/v2/x/streampay/types"
 	"github.com/cometbft/cometbft/libs/log"
 	"github.com/cosmos/cosmos-sdk/codec"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"

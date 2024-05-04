@@ -1,5 +1,5 @@
 version: v1
-name: buf.build/OmniFlix/streampay
+name: buf.build/furya/streampay
 deps:
   - buf.build/cosmos/gogo-proto:a14993478f40695898ed8a86931094b6656e8a5d
   - buf.build/cosmos/cosmos-sdk:v0.47.0

@@ -1,8 +1,8 @@
 package streampay
 
 import (
-	"github.com/OmniFlix/streampay/v2/x/streampay/keeper"
-	"github.com/OmniFlix/streampay/v2/x/streampay/types"
+	"github.com/furysport/streampay/v2/x/streampay/keeper"
+	"github.com/furysport/streampay/v2/x/streampay/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

@@ -114,13 +114,13 @@ message MsgClaimStreamedAmount {
 ```protobuf
 service Query {
   rpc StreamingPayments(QueryStreamPaymentsRequest) returns (QueryStreamPaymentsResponse) {
-    option (google.api.http).get = "/omniflix/streampay/v1/streaming-payments";
+    option (google.api.http).get = "/furya/streampay/v1/streaming-payments";
   }
   rpc StreamingPayment(QueryStreamPaymentRequest) returns (QueryStreamPaymentResponse) {
-    option (google.api.http).get = "/omniflix/streampay/v1/streaming-payments/{id}";
+    option (google.api.http).get = "/furya/streampay/v1/streaming-payments/{id}";
   }
   rpc Params(QueryParamsRequest) returns (QueryParamsResponse) {
-    option (google.api.http).get = "/omniflix/streampay/v1/params";
+    option (google.api.http).get = "/furya/streampay/v1/params";
   }
 }
 ```

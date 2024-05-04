@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/OmniFlix/streampay/v2/x/streampay/client/cli"
-	"github.com/OmniFlix/streampay/v2/x/streampay/keeper"
-	"github.com/OmniFlix/streampay/v2/x/streampay/types"
+	"github.com/furysport/streampay/v2/x/streampay/client/cli"
+	"github.com/furysport/streampay/v2/x/streampay/keeper"
+	"github.com/furysport/streampay/v2/x/streampay/types"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"

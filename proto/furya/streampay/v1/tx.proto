@@ -1,16 +1,16 @@
 syntax = "proto3";
-package OmniFlix.streampay.v1;
+package furya.streampay.v1;
 
 import "cosmos/msg/v1/msg.proto";
 import "amino/amino.proto";
-import "OmniFlix/streampay/v1/params.proto";
+import "furya/streampay/v1/params.proto";
 import "cosmos_proto/cosmos.proto";
 import "cosmos/base/v1beta1/coin.proto";
 import "gogoproto/gogo.proto";
 import "google/protobuf/duration.proto";
-import "OmniFlix/streampay/v1/streampay.proto";
+import "furya/streampay/v1/streampay.proto";
 
-option go_package = "github.com/OmniFlix/streampay/x/streampay/types";
+option go_package = "github.com/furysport/streampay/x/streampay/types";
 
 // Msg defines the Msg service.
 service Msg {
@@ -30,7 +30,7 @@ service Msg {
 
 message MsgStreamSend {
   option (cosmos.msg.v1.signer) = "sender";
-  option (amino.name)           = "OmniFlix/streampay/MsgStreamSend";
+  option (amino.name)           = "furya/streampay/MsgStreamSend";
   option (gogoproto.equal)      = false;
 
   string sender = 1;
@@ -59,7 +59,7 @@ message MsgStreamSendResponse {
 
 message MsgStopStream {
   option (cosmos.msg.v1.signer) = "sender";
-  option (amino.name)           = "OmniFlix/streampay/MsgStopStream";
+  option (amino.name)           = "furya/streampay/MsgStopStream";
   option (gogoproto.equal)      = false;
 
   string stream_id = 1 [(gogoproto.moretags) = "yaml:\"stream_id\""];
@@ -70,7 +70,7 @@ message MsgStopStreamResponse {}
 
 message MsgClaimStreamedAmount {
   option (cosmos.msg.v1.signer) = "claimer";
-  option (amino.name)           = "OmniFlix/streampay/MsgClaimStream";
+  option (amino.name)           = "furya/streampay/MsgClaimStream";
   option (gogoproto.equal)      = false;
 
   string stream_id = 1 [(gogoproto.moretags) = "yaml:\"stream_id\""];
